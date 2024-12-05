@@ -1,0 +1,257 @@
+*{
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style:none;
+	scroll-behavior: smooth;
+	font-family: "Poppins", sans-serif;
+    font-style: normal;
+	
+}
+
+/* navbar */
+#navbar{
+	background-color:black;
+}
+
+#logo{
+	color: #f9f9f9;
+	font-weight: 700;
+	font-size: 40px;
+	padding-right: 50px;
+
+}
+#logo span{
+	color: #6D2C91;
+	font-weight: 900;
+	font-size: 50px;
+}
+.navbar-nav{
+	margin-left:20px;
+}
+
+.nav-item .nav-link{
+	color: white;
+	font-size: 15px;
+	font-weight: 550;
+	transform: 0.5s linear;
+}
+@media (max-width:1200px) {
+
+.nav-item .nav-link{
+		font-weight: 500;
+		font-size: 11px;
+		padding-left:5px;
+	}
+	
+}
+.nav-item .nav-link:hover{
+	border-radius: 10px;
+	background-color:rgb(251, 242, 230) ;
+	color: black;
+}
+#buton{
+	background-color: #6D2C91;
+}
+
+/* anasayfa */
+body
+{
+	height: 100vh;
+	
+}
+.home{
+	width: 100%;
+	height: 100vh;
+	background-image: url('resim.png');
+	background-repeat: repeat;
+	background-size: cover;
+	/* filter: contrast(1.5) brightness(1.1);  */
+	
+ 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.home .content  {
+	color:black ;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 800;
+		
+}
+
+.changetext::after{
+	content: ' ';
+	animation:changetxt 10s  infinite;
+	text-shadow: 0px 1px 1px black;
+	color: #5c3770;
+}
+@keyframes changetxt {
+	0%{ content: " Sushi";}
+	10%{ content:" Paella";}
+	20%{ content: " Falafel";}
+	30%{ content: " Mousakka";}
+	40%{ content: " Tacos";}
+	50%{ content: " Goulash";}
+	60%{ content: " Croissant";}
+	70%{ content: " Ratatouille";}
+	80%{ content: " Spaghetti Carbona";}
+	90%{ content: " Sauerbraten";}
+	95%{ content: " Banh Mi";}
+	100%{ content: "Pizza Margherita";}
+	
+}
+#btn{
+	background-color: white;
+	border: none;
+	border-radius: 10px;
+	color: #6D2C91;
+	font-weight: 550;
+	padding: 5px 15px;
+	
+	
+
+}
+#btn a{
+	text-decoration: none;
+	color: #6D2C91;
+	font-weight: 550;
+	padding: 5px 15px;
+	
+}
+
+
+
+
+.menu .main-content{
+	color: black;
+	text-align: center;
+	margin: 30px 0px;
+}
+.menu .main-content span{
+	color: #6D2C91;
+	font-size: 70px;
+}
+.btn{
+	color: black;
+	background-color: #dccce4;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 20px;
+	transition: 0.7s linear;
+}
+.card .btn:hover{
+	width: 100px;
+	
+	
+}
+.menu .card img{
+	border-top-right-radius:30px;
+	border-top-left-radius: 30px;
+	width: 100%;          
+    height: 200px;        
+    object-fit: cover;
+	
+}
+.menu .card{
+	margin-bottom: 20px; 
+    border-radius: 30px; 
+    overflow: hidden; 
+	box-shadow: rgba(0,0,0, 0.1) 0px 5px  12px;
+	border:none;
+	transition: 0.5s linear;
+}
+	
+
+.card .card-title{
+	font-size: 1rem;
+}
+
+
+.card-body{
+	
+	color: black;
+	font-size: 0.9rem;
+	font-weight: 300;
+	margin-bottom: 15px;
+	
+}
+.menu .card:hover{
+	transform: scale(1.05);
+}
+
+
+
+
+/* section about */
+
+.main-head{
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 30px 0px;
+}
+.main-head span{
+	color: #6D2C91;
+	font-size:70px;
+}
+
+
+.icon h1{
+	color: white;
+	font-size:40px ;
+	font-weight: 700;
+	text-align: end;
+	margin-right: 150px;
+}
+.icon h1 span{
+	color: #6D2C91;
+	font-size: 70px;
+	font-weight: 700;
+}
+.text{
+	color: #dacee0;
+	font-size: 20px;
+	font-weight:400;
+}
+/* section reservation */
+
+.main-head-txt {
+	color: black;
+	text-align: center;
+	margin: 30px 0px;
+}
+.main-head-txt span{
+	color: #6D2C91;
+	font-size: 70px;
+}
+
+.img-height{
+		width: 100%;          /* Kartın genişliğine göre resim genişliği */
+		height:auto;        /* Sabit bir yükseklik */
+		
+}
+
+/* section cantact */
+.main-text-head{
+	color: black;
+	text-align: center;
+	margin: 30px 0px;
+}
+.main-text-head span{
+	color: #6D2C91;
+	font-size: 70px;
+}
+
+/* footer */
+
+
+.text-color{
+	color: #5c3770;
+	font-size: 20px;
+}
+
